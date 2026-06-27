@@ -1,0 +1,16 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "sass src/scss/style.scss src/css/style.css",
+     "observar":  "sass --watch src/scss/main.scss src/css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}
