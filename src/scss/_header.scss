@@ -1,0 +1,26 @@
+header {
+    widht: 100%;
+    height: 80px;
+    border: solid black 1px;
+
+    div.container-header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        div.logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                display: block;
+                width: 150px;
+                border: solid black 1px;
+            }
+        }
+    }
+}

@@ -13,4 +13,32 @@ ul {
   list-style: none;
 }
 
+header {
+  widht: 100%;
+  height: 80px;
+  border: solid black 1px;
+}
+header div.container-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header div.container-header div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div.container-header div.logo img {
+  display: block;
+  width: 150px;
+  border: solid black 1px;
+}
+
+body {
+  background-color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
