@@ -14,7 +14,7 @@ ul {
 }
 
 header {
-  widht: 100%;
+  width: 100%;
   height: 80px;
   border: solid black 1px;
 }
@@ -25,6 +25,7 @@ header div.container-header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header div.container-header div.logo {
   display: flex;
@@ -35,6 +36,24 @@ header div.container-header div.logo img {
   display: block;
   width: 150px;
   border: solid black 1px;
+}
+header div.container-header button.hamburger {
+  height: 40px;
+  width: 40px;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+header div.container-header button.hamburger span {
+  width: 30px;
+  height: 3px;
+  background-color: whitesmoke;
+}
+header div.container-header button.hamburger span.span-one {
+  background-color: blue;
 }
 
 body {
