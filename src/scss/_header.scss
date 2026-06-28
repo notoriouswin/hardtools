@@ -8,6 +8,7 @@ header {
         height: 100%;
         display: flex;
         padding: 10px;
+        padding-right: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -20,31 +21,46 @@ header {
             img{
                 display: block;
                 width: 150px;
-                border: solid black 1px;
             }
         }
 
         button.hamburger{
+            position: relative;
             height: 40px;
             width: 40px;
-            border: solid black 1px;
+            border: none;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             background: none;
+            cursor: pointer;
 
             span{
                 width: 30px;
                 height: 3px;
                 background-color: whitesmoke;
+                position: relative;
+                margin: 5.5px;
+                border-radius: 5px;
                 
+            }
 
-                &.span-one{
-                    
-                    background-color: blue;
+            &:hover{
+                span.span-two{
+                    transform: rotate(-20deg);
+                    transition: all 0.2s;
                 }
             }
         }
+    }
+
+    nav.menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 40dvw;
+        height: 100dvh;
+        background-color: white;
     }
 }

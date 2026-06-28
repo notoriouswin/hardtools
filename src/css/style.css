@@ -23,6 +23,7 @@ header div.container-header {
   height: 100%;
   display: flex;
   padding: 10px;
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,25 +36,38 @@ header div.container-header div.logo {
 header div.container-header div.logo img {
   display: block;
   width: 150px;
-  border: solid black 1px;
 }
 header div.container-header button.hamburger {
+  position: relative;
   height: 40px;
   width: 40px;
-  border: solid black 1px;
+  border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: none;
+  cursor: pointer;
 }
 header div.container-header button.hamburger span {
   width: 30px;
   height: 3px;
   background-color: whitesmoke;
+  position: relative;
+  margin: 5.5px;
+  border-radius: 5px;
 }
-header div.container-header button.hamburger span.span-one {
-  background-color: blue;
+header div.container-header button.hamburger:hover span.span-two {
+  transform: rotate(-20deg);
+  transition: all 0.2s;
+}
+header nav.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 40dvw;
+  height: 100dvh;
+  background-color: white;
 }
 
 body {
