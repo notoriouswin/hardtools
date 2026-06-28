@@ -51,23 +51,41 @@ header div.container-header button.hamburger {
 }
 header div.container-header button.hamburger span {
   width: 30px;
-  height: 3px;
+  height: 2.7px;
   background-color: whitesmoke;
   position: relative;
-  margin: 5.5px;
+  margin: 5px;
   border-radius: 5px;
+  transition: all 0.2s;
+}
+header div.container-header button.hamburger:hover span.span-one {
+  transform: rotate(10deg);
 }
 header div.container-header button.hamburger:hover span.span-two {
-  transform: rotate(-20deg);
-  transition: all 0.2s;
+  transform: rotate(-10deg);
 }
 header nav.menu {
   position: fixed;
+  display: none;
+  visibility: hidden;
   right: 0;
   top: 0;
   width: 40dvw;
   height: 100dvh;
+  padding: 15px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav.menu ul.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+header nav.menu ul.nav-list li {
+  font-size: 40px;
 }
 
 body {
