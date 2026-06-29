@@ -62,8 +62,6 @@ header {
 
     nav.menu{
         position: fixed;
-        display: none;
-        visibility: hidden;
         right: 0;
         top: 0;
         width: 40dvw;
@@ -73,15 +71,19 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
+        box-shadow: 5 1px 1px black;
+        font-family: $fontMenu;
 
         ul.nav-list{
             display: flex;
             flex-direction: column;
-            gap: 60px;
+            gap: 20px;
+
 
             li{
-                font-size: 40px;
+                display: flex;
+                font-size: 60px;
             }
         }
     }

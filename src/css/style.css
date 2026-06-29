@@ -13,6 +13,14 @@ ul {
   list-style: none;
 }
 
+@font-face {
+  font-family: "Arial-Black";
+  src: url(/src/fonts/Arial_Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Arial-Medium";
+  src: url(/src/fonts/Arial-Medium.ttf) format("truetype");
+}
 header {
   width: 100%;
   height: 80px;
@@ -66,8 +74,6 @@ header div.container-header button.hamburger:hover span.span-two {
 }
 header nav.menu {
   position: fixed;
-  display: none;
-  visibility: hidden;
   right: 0;
   top: 0;
   width: 40dvw;
@@ -77,15 +83,17 @@ header nav.menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  box-shadow: 5 1px 1px black;
+  font-family: "Arial-Medium", Arial, sans-serif;
 }
 header nav.menu ul.nav-list {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
 }
 header nav.menu ul.nav-list li {
-  font-size: 40px;
+  display: flex;
+  font-size: 60px;
 }
 
 body {
