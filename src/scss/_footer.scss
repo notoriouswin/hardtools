@@ -1,0 +1,9 @@
+@import "variaveis";
+
+footer {
+    background-color: $surface-bright;
+    color: $surface;
+    padding: 20px;
+    text-align: center;
+    font-family: $inverse-surface;
+}   
