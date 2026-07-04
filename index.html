@@ -15,21 +15,39 @@
                 <img src="src/images/hardtools-logo.png" alt="Logo da empresa HardTools">
             </div><!--logo-->
 
-            <button class="hamburger">
+            <button class="hamburger" type="button" aria-label="Abrir menu" aria-expanded="false">
                 <span class="span-one"></span>
                 <span class="span-two"></span>
             </button>
 
-            <nav class="menu">
+            <div class="menu-blur"></div>
+
+            <nav class="menu" aria-label="Menu principal">
+                <div class="menu-logo">
+                    <img src="src/images/hardtools-logo.png" alt="Logo da empresa HardTools">
+                </div>
                 <ul class="nav-list">
-                    <li><span></span>home</li>
-                    <li><span></span>sobre</li>
-                    <li><span></span>catalogo</li>
-                    <li><span></span>serviços</li>
-                    <li><span></span>contato</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
-                <div class="button-speak">
-                    <button>Fale conosco</button>
+                <div class="menu-footer">
+                    <div class="menu-footer-column">
+                        <a href="#">Fale conosco</a>
+                        <a href="#">Suporte técnico</a>
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Termos de Serviço</a>
+                    </div>
+                    <div class="menu-footer-column">
+                        <a href="#">LinkedIn</a>
+                        <div class="language-switch" aria-label="Selecionar idioma">
+                            <button type="button" class="language-option active" data-lang="pt">PT</button>
+                            <span aria-hidden="true">|</span>
+                            <button type="button" class="language-option" data-lang="en">EN</button>
+                        </div>
+                    </div>
                 </div>
             </nav>
 
@@ -37,7 +55,38 @@
     </header> <!--Menotayme está responsável por essa sessão-->
 
     <section class="home">
-        
+        <div class="home-content">
+            <div class="home-text">
+                <div class="home-tag">
+                    <span></span>
+                    <p>Precisão industrial</p>
+                </div>
+
+                <h1>A maior parceira em ferramentas para usinagem</h1>
+
+                <p class="home-description">
+                    Soluções em ferramentas de alta precisão para aumentar desempenho, acabamento e produtividade em cada processo.
+                </p>
+
+                <div class="home-actions">
+                    <a href="#" class="button-primary">Explorar catálogo <span>→</span></a>
+                    <a href="#" class="button-secondary">Fale conosco</a>
+                </div>
+            </div>
+
+            <div class="home-image-area" aria-hidden="true">
+                <div class="corner corner-top-left"></div>
+                <div class="corner corner-top-right"></div>
+                <div class="corner corner-bottom-left"></div>
+                <div class="corner corner-bottom-right"></div>
+
+                <img src="src/images/separadas-home.png" alt="" class="home-floating-image">
+
+                <div class="tech-label label-one">Material: Carbide</div>
+                <div class="tech-label label-two">Precisão: ±0.02mm</div>
+                <div class="tech-label label-three">Performance CNC</div>
+            </div>
+        </div>
     </section><!--home-->
 
 
