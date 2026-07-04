@@ -1,0 +1,54 @@
+@import "variaveis";
+
+
+.mouse-carousel {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse-track {
+  display: flex;
+  gap: 28px;
+  transition: transform 0.15s ease-out;
+  will-change: transform;
+}
+
+.mouse-card {
+  flex: 0 0 260px;
+
+  background: #151515;
+  border-radius: 16px;
+  padding: 12px;
+
+  opacity: 0.4;
+  filter: blur(2px);
+  transform: scale(0.85);
+
+  transition: transform 0.35s ease, filter 0.35s ease, opacity 0.35s ease;
+
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  h3 {
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+/* card em destaque (controlado via JS) */
+.mouse-card.active {
+  transform: scale(1.15);
+  opacity: 1;
+  filter: blur(0);
+  z-index: 10;
+}
