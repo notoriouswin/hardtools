@@ -55,37 +55,58 @@
     </header> <!--Menotayme está responsável por essa sessão-->
 
     <section class="home">
+        <!-- Linhas de grade no fundo (grid lines) -->
+        <div class="home-grid-lines" aria-hidden="true">
+            <span class="grid-line"></span>
+            <span class="grid-line"></span>
+            <span class="grid-line"></span>
+            <span class="grid-line"></span>
+            <span class="grid-line"></span>
+        </div>
+
         <div class="home-content">
-            <div class="home-text">
-                <div class="home-tag">
-                    <span></span>
-                    <p>Precisão industrial</p>
-                </div>
-
-                <h1>A maior parceira em ferramentas para usinagem</h1>
-
-                <p class="home-description">
-                    Soluções em ferramentas de alta precisão para aumentar desempenho, acabamento e produtividade em cada processo.
-                </p>
-
-                <div class="home-actions">
-                    <a href="#" class="button-primary">Explorar catálogo <span>→</span></a>
-                    <a href="#" class="button-secondary">Fale conosco</a>
+            <div class="home-top-row">
+                <div class="home-title-wrapper">
+                    <div class="home-tag">
+                        <span></span>
+                        <p>Precisão industrial</p>
+                    </div>
+                    <h1>As melhores ferramentas <br> da América látina</h1>
                 </div>
             </div>
-
-            <div class="home-image-area" aria-hidden="true">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="src/images/separadas-home.png" alt="" class="home-floating-image">
-
-                <div class="tech-label label-one">Material: Carbide</div>
-                <div class="tech-label label-two">Precisão: ±0.02mm</div>
-                <div class="tech-label label-three">Performance CNC</div>
+            
+            <div class="home-bottom-row">
+                <div class="home-info-wrapper">
+                    <p class="home-description">
+                        Soluções em ferramentas de alta precisão para aumentar desempenho, acabamento e produtividade em cada processo.
+                    </p>
+                    <div class="home-actions">
+                        <a href="#" class="btn-industrial">
+                            <span class="btn-corner top-left"></span>
+                            <span class="btn-corner top-right"></span>
+                            <span class="btn-corner bottom-left"></span>
+                            <span class="btn-corner bottom-right"></span>
+                            <span class="btn-bullet"></span>
+                            Explorar catálogo
+                        </a>
+                        <a href="#" class="btn-industrial btn-secondary-industrial">
+                            <span class="btn-corner top-left"></span>
+                            <span class="btn-corner top-right"></span>
+                            <span class="btn-corner bottom-left"></span>
+                            <span class="btn-corner bottom-right"></span>
+                            <span class="btn-bullet"></span>
+                            Fale conosco
+                        </a>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <!-- Camadas de ferramentas flutuantes saindo do lado direito -->
+        <div class="home-floating-tools" aria-hidden="true">
+            <img src="src/images/separadas-home.png" alt="" class="tool-floating-item tool-depth-1">
+            <img src="src/images/separadas-home.png" alt="" class="tool-floating-item tool-depth-2">
+            <img src="src/images/separadas-home.png" alt="" class="tool-floating-item tool-depth-3">
         </div>
     </section><!--home-->
 

@@ -12,3 +12,27 @@ a {
 ul {
     list-style: none;
 }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111821; /* Dark background matching the page theme */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a525d; /* Sleek, thin gray rounded thumb */
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f2ca50; /* Turn yellow/gold on hover for interactive feed */
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #4a525d #111821;
+}
