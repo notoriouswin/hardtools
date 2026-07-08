@@ -1,4 +1,4 @@
-@import "fonts";
+@use "fonts";
 
 $menu-yellow: #F2CA50;
 $menu-line-time: 0.9s;
@@ -107,7 +107,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-family: $fontMenu;
+        font-family: fonts.$fontMenu;
         color: #101827;
         transform: translateX(110%);
         opacity: 0;

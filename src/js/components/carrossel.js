@@ -11,12 +11,13 @@ const speed = 0.08;
 
 // movimento do mouse
 document.addEventListener('mousemove', (e) => {
-  const windowWidth = window.innerWidth;
-  mouseX = (e.clientX / windowWidth) - 0.5;
+const windowWidth = window.innerWidth;
+    mouseX = (e.clientX / windowWidth) - 0.5;
 });
 
 // animação suave do track
 function animate() {
+
   const maxMove = 200; // intensidade do movimento horizontal
 
   targetTranslate = mouseX * maxMove;
@@ -32,16 +33,18 @@ function animate() {
 
 // detecta card central
 function updateActiveCard() {
-  const center = window.innerWidth / 2;
+  
+const center = window.innerWidth / 2;
 
   let closest = null;
   let minDist = Infinity;
 
   cards.forEach(card => {
-    const rect = card.getBoundingClientRect();
-    const cardCenter = rect.left + rect.width / 2;
+    
+const rect = card.getBoundingClientRect();
+const cardCenter = rect.left + rect.width / 2;
 
-    const dist = Math.abs(center - cardCenter);
+const dist = Math.abs(center - cardCenter);
 
     if (dist < minDist) {
       minDist = dist;
@@ -49,8 +52,8 @@ function updateActiveCard() {
     }
   });
 
-  cards.forEach(c => c.classList.remove('active'));
-  if (closest) closest.classList.add('active');
+cards.forEach(c => c.classList.remove('active'));
+    if (closest) closest.classList.add('active');
 }
 
 animate();

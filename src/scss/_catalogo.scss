@@ -1,0 +1,90 @@
+@use "variaveis";
+
+.catalog {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 80px 8%;
+}
+
+.catalog-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.catalog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-image img {
+    max-width: 100%;
+    width: 550px;
+    height: auto;
+}
+.tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.catalog-controls {
+    position: absolute;
+    bottom: 60px;
+    right: 8%;
+}
+
+.categoria {
+    color: variaveis.$outline;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.title {
+    font-size: clamp(3rem, 5vw, 5rem); //a funcao clamp deixa a tipografia responsiva sem muitas media queries. Bem usada atualmente.
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+
+}
+
+.descricao {
+    color: variaveis.$outline;
+    max-width: 420px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.tags span {
+    padding: 10px 18px;
+    border: 1px solid variaveis.$outline;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: default;
+    transition: .3s;
+}
+
+.tags span:hover {
+    transform: translateY(-2px);
+}
+
+.btn-buy {
+    padding: 16px 40px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: .3s
+
+}
+
+.btn-buy:hover {
+    transform: translateY(-3px);
+}
