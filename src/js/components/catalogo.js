@@ -57,22 +57,24 @@ const produtos = [
 
 let current = 0;
 // essa funçao atualiza a tela
-const title = document.querySelector(".title");
-const categoria = document.querySelector(".categoria");
-const descricao = document.querySelector(".descricao");
-const image = document.querySelector("#imagem-produto");
-const tags = document.querySelector(".tags");
+const elements = {
+    title: document.querySelector(".title"),
+    categoria: document.querySelector(".categoria"),
+    descricao: document.querySelector(".descricao"),
+    image: document.querySelector("#imagem-produto"),
+    tags: document.querySelector(".tags")
+};
 
 function renderProduct(){
 
         const produto = produtos[current];
 
-        title.textContent = produto.nome;
-        categoria.textContent = produto.categoria;
-        descricao.textContent = produto.descricao || "";
-        image.src = produto.imagem;
-
-        tags.innerHTML = "";
+        elements.title.textContent = produto.nome;
+        elements.categoria.textContent = produto.categoria;
+        elements.descricao.textContent = produto.descricao || "";
+        elements.image.src = produto.imagem;
+        elements.image.alt = produto.nome;
+        elements.tags.innerHTML = "";
 
         produto.tags.forEach(tag => {
 
@@ -80,7 +82,7 @@ function renderProduct(){
 
             const span = document.createElement("span");
             span.textContent = tag;
-            tags.appendChild(span);
+            elements.tags.appendChild(span);
             }
         });
 }

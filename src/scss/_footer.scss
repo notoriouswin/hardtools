@@ -1,9 +1,10 @@
 @use "variaveis";
+@use "fonts";
 
 footer {
-    background-color: $surface-bright;
-    color: $surface;
+    background-color: variaveis.$background;
+    color: variaveis.$primary;
     padding: 20px;
     text-align: center;
-    font-family: $inverse-surface;
+    font-family: fonts.$fontMenu;
 }   
