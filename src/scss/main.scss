@@ -1,10 +1,11 @@
-@import "reset";
-@import "header";
-@import "home";
-@import "catalog";
-@import "variaveis";
-@import "fonts";
-@import "footer";
+@use "reset";
+@use "header";
+@use "home";
+@use "carrossel";
+@use "catalogo";
+@use "variaveis";
+@use "fonts";
+@use "footer";
 
 body{
     background-color: whitesmoke;

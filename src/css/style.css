@@ -358,34 +358,6 @@ body.menu-open {
     padding-left: 10px;
   }
 }
-/* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
-/* ---------- SURFACES ---------- */
-/* ---------- TEXT ---------- */
-/* ---------- OUTLINE ---------- */
-/* ---------- BRAND / PRIMARY ---------- */
-/* ---------- SECONDARY ---------- */
-/* ---------- TERTIARY ---------- */
-/* ---------- ERROR ---------- */
-/* ---------- GRADIENTS ---------- */
-/* TYPOGRAPHY */
-/* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
-/* ---------- SURFACES ---------- */
-/* ---------- TEXT ---------- */
-/* ---------- OUTLINE ---------- */
-/* ---------- BRAND / PRIMARY ---------- */
-/* ---------- SECONDARY ---------- */
-/* ---------- TERTIARY ---------- */
-/* ---------- ERROR ---------- */
-/* ---------- GRADIENTS ---------- */
-/* TYPOGRAPHY */
-@font-face {
-  font-family: "Arial-Black";
-  src: url(/src/fonts/Arial_Black.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Arial-Medium";
-  src: url(/src/fonts/Arial-Medium.ttf) format("truetype");
-}
 .home {
   position: relative;
   min-height: 100vh;
@@ -805,16 +777,6 @@ body.menu-open {
     right: 35%;
   }
 }
-/* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
-/* ---------- SURFACES ---------- */
-/* ---------- TEXT ---------- */
-/* ---------- OUTLINE ---------- */
-/* ---------- BRAND / PRIMARY ---------- */
-/* ---------- SECONDARY ---------- */
-/* ---------- TERTIARY ---------- */
-/* ---------- ERROR ---------- */
-/* ---------- GRADIENTS ---------- */
-/* TYPOGRAPHY */
 .mouse-carousel {
   width: 100%;
   height: 420px;
@@ -862,34 +824,6 @@ body.menu-open {
   z-index: 10;
 }
 
-/* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
-/* ---------- SURFACES ---------- */
-/* ---------- TEXT ---------- */
-/* ---------- OUTLINE ---------- */
-/* ---------- BRAND / PRIMARY ---------- */
-/* ---------- SECONDARY ---------- */
-/* ---------- TERTIARY ---------- */
-/* ---------- ERROR ---------- */
-/* ---------- GRADIENTS ---------- */
-/* TYPOGRAPHY */
-/* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
-/* ---------- SURFACES ---------- */
-/* ---------- TEXT ---------- */
-/* ---------- OUTLINE ---------- */
-/* ---------- BRAND / PRIMARY ---------- */
-/* ---------- SECONDARY ---------- */
-/* ---------- TERTIARY ---------- */
-/* ---------- ERROR ---------- */
-/* ---------- GRADIENTS ---------- */
-/* TYPOGRAPHY */
-@font-face {
-  font-family: "Arial-Black";
-  src: url(/src/fonts/Arial_Black.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Arial-Medium";
-  src: url(/src/fonts/Arial-Medium.ttf) format("truetype");
-}
 /* TOKENS - COLORS (PRIMITIVE + SEMANTIC) Industrial Precision Mono */
 /* ---------- SURFACES ---------- */
 /* ---------- TEXT ---------- */

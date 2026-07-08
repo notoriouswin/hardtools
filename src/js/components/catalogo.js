@@ -1,5 +1,3 @@
-
-
 const produtos = [
     {
         nome: "SUPORTES",
@@ -15,8 +13,8 @@ const produtos = [
     {
         nome: "BARRA",
         categoria: "HARD-TOOLS",
-        descricao: "",
-        imagem: "./src/images/suporte.png",
+        descricao: "em breve",
+        imagem: "./src/images/barra.png",
         tags: [
             "tag 1",
             "tag 2",
@@ -26,8 +24,8 @@ const produtos = [
     {
         nome: "BROCA",
         categoria: "HARD-TOOLS",
-        descricao: "",
-        imagem: "./src/images/suporte.png",
+        descricao: "em breve",
+        imagem: "./src/images/broca.png",
         tags: [
             "tag 1",
             "tag 2",
@@ -37,8 +35,8 @@ const produtos = [
     {
         nome: "FRESA",
         categoria: "HARD-TOOLS",
-        descricao: "",
-        imagem: "./src/images/suporte.png",
+        descricao: "em breve",
+        imagem: "./src/images/fresa.png",
         tags: [
             "tag 1",
             "tag 2",
@@ -48,8 +46,8 @@ const produtos = [
     {
         nome: "INSERTO",
         categoria: "HARD-TOOLS",
-        descricao: "",
-        imagem: "./src/images/suporte.png",
+        descricao: "em breve",
+        imagem: "./src/images/inserto.png",
         tags: [
             "tag 1",
             "tag 2",

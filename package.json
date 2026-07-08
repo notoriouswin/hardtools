@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "compilar": "sass src/scss/style.scss src/css/style.css",
+    "compilar": "sass src/scss/main.scss src/css/style.css",
      "observar":  "sass --watch src/scss/main.scss src/css/style.css"
   },
   "devDependencies": {
